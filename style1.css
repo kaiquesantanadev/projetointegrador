@@ -1,0 +1,58 @@
+
+
+body {
+    position: relative;
+  }
+  ul.nav-pills {
+    top: 20px;
+    position: fixed;
+  }
+  div.col-sm-9 div {
+    height: 250px;
+    font-size: 28px;
+  }
+.center {
+  text-align: center;
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+  margin: 0 4px;
+}
+.pagination a.active {
+  background-color: black;
+  color: white;
+  border: 1px solid #black;
+}
+
+.titulo-acervo{
+  color:black;
+  font-size:26px;
+  margin:5 3px;
+  line-height:2;
+}
+
+.texto-acervo{
+  font-size: 17px;
+  color: black;
+  text-align:justify;
+  margin:5 3px;
+  line-height:33px;
+}
+.ft-1{
+ width: 100%;
+  background-color: rgb(31 41 55);
+  color: white;
+  text-align: center;
+  padding: .3px;
+  display: block;
+}
